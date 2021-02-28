@@ -1,0 +1,41 @@
+1. cd desktop 
+  
+2. cd learning-git
+
+3. mkdir just-new-file
+
+4. ls // check what is insine current page
+
+5. git init .   // tell that current page is git repository(make current page git repository) 
+this command for new project
+
+6. rm -rf .git  // command for delete a git repository
+
+7. touch index.html // create new file with name "index.html"
+
+8. git status // shows the current state of your git working directory 
+
+9. git add index.html // adding files which you want to commit
+
+10. git add . // add all files in current directory
+
+11. git add -A // add all files in current project
+
+12. git rm --cached index.html // unstage file
+
+13. git rm -r --cached . // unstage all the files in current directory 
+
+
+
+
+14. git commit -m "random app" // took files from staging area and create save point
+
+15. git log // to see hash
+
+16. git show (paste hash here) // to see what we did add // give hash with using "git log" command 
+
+
+
+17. vi index.js // open file file for editing, use 'i' button po input , use 'ESC' after written and save changes':w', to quite file use ':q'
+
+18. cat index.html // open file to see
